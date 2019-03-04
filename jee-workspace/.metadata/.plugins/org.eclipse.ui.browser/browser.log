@@ -1,0 +1,20 @@
+
+2월 07, 2019 14:02:48.91 NEW SESSION
+2월 07, 2019 14:02:48.91 [4292:2728:0207/140248.906:ERROR:socket_stream.cc(219)] Closing stream with result -2
+2월 07, 2019 20:38:07.73 [4292:4724:0207/203807.732:ERROR:http_bridge.cc(126)] NOT IMPLEMENTED
+2월 07, 2019 20:38:08.15 
+2월 07, 2019 20:38:08.15 KLIB_SelfTest return : KLR_OK
+
+2월 11, 2019 11:10:02.34 NEW SESSION
+2월 11, 2019 11:10:02.34 [5876:6924:0211/111002.339:ERROR:audio_manager_base.cc(362)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+
+2월 18, 2019 10:37:30.30 NEW SESSION
+2월 18, 2019 10:37:30.30 [4256:5604:0218/103730.304:ERROR:textfield.cc(1777)] NOT IMPLEMENTED
+
+2월 21, 2019 11:42:52.81 NEW SESSION
+2월 21, 2019 11:42:52.81 [4116:4160:0221/114252.791:ERROR:textfield.cc(1777)] NOT IMPLEMENTED
+2월 21, 2019 17:18:32.70 [4116:6408:0221/171832.707:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+2월 21, 2019 17:25:11.13 [4116:6408:0221/172511.132:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0 channel_layout: 0 channels: 0 sample_rate: 0 frames_per_buffer: 0 effects: 0 mic_positions: 
+
+2월 22, 2019 12:49:45.61 NEW SESSION
+2월 22, 2019 12:49:45.62 [6160:4464:0222/124945.593:ERROR:textfield.cc(1777)] NOT IMPLEMENTED

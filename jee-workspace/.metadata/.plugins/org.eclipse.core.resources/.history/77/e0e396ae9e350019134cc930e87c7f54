@@ -1,0 +1,32 @@
+package command;
+
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+import domain.CustomerDTO;
+import domain.EmployeeDTO;
+import enums.Action;
+import proxy.Proxy;
+import proxy.RequestProxy;
+import service.EmployeeServiceImpl;
+
+public class DeleteCommand extends Command{
+	public DeleteCommand(Map<String, Proxy> pxy) {
+		RequestProxy req = (RequestProxy) pxy.get("req");
+		HttpServletRequest request = req.getRequest();
+		String customerID = request.getParameter("customer_id");
+		System.out.println("id?"+customerID);
+		switch(Action.valueOf(request.getParameter("cmd").toUpperCase())) {
+		case CUST_REMOVE :
+				CustomerDTO cust = new CustomerDTO();
+				CustomerDTO a = (CustomerDTO) request.getSession().getAttribute("customer");
+				cust.setCustomerID(a);
+				
+			break;
+		default:
+			break;
+			
+		}
+	}
+}

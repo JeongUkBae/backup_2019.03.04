@@ -1,0 +1,18 @@
+package enums;
+
+public enum CategorySQL {
+	cate_list
+	public String toString() {
+		StringBuffer query = new StringBuffer();
+		switch(this) {
+		case SIGNUP: 
+			query.append("INSERT INTO CUSTOMERS(CUSTOMER_ID, CUSTOMER_NAME, "
+					+ "PASSWORD, SSN, PHONE, PHOTO, CITY, ADDRESS, POSTAL_CODE)"
+			       + "VALUES(?,?,?,?,?,'103',?,?,?)");
+			
+			break;
+	
+		}
+		return query.toString();
+	}
+}
